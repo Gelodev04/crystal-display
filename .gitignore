@@ -1,8 +1,9 @@
 # Dependencies
 node_modules/
 
-# Build output (optional - Vercel will rebuild)
-dist/
+# Build output (Vercel will rebuild during deployment)
+# Removed dist/ from ignore so it's committed for Vercel
+# dist/
 
 # Vercel
 .vercel/
