@@ -1,0 +1,12 @@
+{
+  "name": "crystal-display-tailwind-homepage",
+  "private": true,
+  "version": "0.3.0",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/styles.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/styles.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
