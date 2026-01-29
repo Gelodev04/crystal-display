@@ -19,7 +19,13 @@
     <header class="sticky top-0 z-20 bg-white border-b border-border">
       <div class="max-w-page mx-auto px-6 lg:px-8">
         <div class="h-[72px] flex items-center justify-between gap-6">
-          <div class="font-semibold tracking-[-0.01em]">Crystal Display</div>
+          <a href="#top" class="flex items-center">
+            <img
+              src="/assets/images/a_03.png"
+              alt="Crystal Display"
+              class="h-[70px] lg:h-[100px] w-auto"
+            />
+          </a>
           <nav aria-label="Primary" class="hidden md:block">
             <ul
               class="flex items-center gap-[18px] text-body2 font-medium text-grey-dark"
@@ -75,7 +81,7 @@
         <div class="relative">
           <!-- HERO MEDIA -->
           <div
-            class="relative h-[calc(110vh-72px)] min-h-[760px] max-h-[1120px] overflow-hidden border-b border-border bg-black"
+            class="relative h-auto min-h-screen lg:h-[calc(110vh-72px)] lg:min-h-[760px] lg:max-h-[1120px] border-b border-border bg-black"
           >
             <img
               src="/assets/images/hero-raywhite-daylight.jpg"
@@ -90,14 +96,14 @@
             <div class="absolute inset-0 bg-black/20"></div>
 
             <!-- CONTENT -->
-            <div class="absolute inset-0">
-              <div class="max-w-[1380px] mx-auto px-6 lg:px-8 h-full">
+            <div class="relative lg:absolute lg:inset-0">
+              <div class="max-w-[1380px] mx-auto px-6 lg:px-8 lg:h-full">
                 <div
-                  class="h-full pb-10 lg:pb-0 flex flex-col justify-center items-centerw-full"
+                  class="lg:h-full pb-10 lg:pb-0 flex flex-col justify-center items-center w-full"
                 >
                   <!-- LEFT RAIL -->
                   <div
-                    class="lg:col-span-7 flex flex-col items-center justify-center w-full h-full py-20 px-4 lg:px-6"
+                    class="lg:col-span-7 flex flex-col items-center justify-center w-full lg:h-full py-12 lg:py-20 px-4 lg:px-6"
                   >
                     <!-- DECISION MAKERS: 3 SEPARATE "GLASS SLABS"
                                      - Desktop: horizontal (lg:grid-cols-3)
@@ -105,15 +111,14 @@
                                      - No external CSS changes required
                                 -->
                     <div
-                      class="mt-5 w-full flex flex-col h-full items-center pt-6 lg:pt-12 gap-[2rem]"
+                      class="mt-5 w-full flex flex-col lg:h-full items-center pt-4 md:pt-6 lg:pt-12 gap-6 md:gap-8"
                     >
                       <div
-                        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-full"
+                        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-12 w-full"
                       >
                         <!-- SLAB 1 -->
                         <a
-                          href="/single-site"
-                          class="relative rounded-3xl shadow-2xl overflow-hidden hover:shadow-[0_20px_60px_rgba(0,0,0,0.4)] transition-all duration-300 flex items-center md:min-h-[300px] lg:min-h-[350px] hover:-translate-y-1 hover:scale-[1.01] group active:scale-[0.99] active:opacity-95"
+                          class="relative rounded-3xl shadow-2xl overflow-hidden hover:shadow-[0_20px_60px_rgba(0,0,0,0.4)] transition-all duration-300 flex items-center md:min-h-[300px] lg:min-h-[350px] hover:-translate-y-1 hover:scale-[1.01] group active:scale-[0.99] active:opacity-95 cursor-pointer"
                           style="
                             backdrop-filter: blur(15px) saturate(110%);
                             -webkit-backdrop-filter: blur(20px) saturate(110%);
@@ -268,7 +273,7 @@
 
                       <!-- SUPPORTING STATEMENT (SEPARATE GLASS STRIP) -->
                       <div
-                        class="relative rounded-3xl shadow-2xl overflow-hidden hover:shadow-[0_20px_60px_rgba(0,0,0,0.4)] transition-all duration-300 w-full"
+                        class="relative rounded-3xl shadow-2xl overflow-hidden hover:shadow-[0_20px_60px_rgba(0,0,0,0.4)] transition-all duration-300 w-full md:w-[85%] lg:w-[75%] md:mx-auto"
                         style="
                           backdrop-filter: blur(15px) saturate(110%);
                           -webkit-backdrop-filter: blur(20px) saturate(110%);
@@ -281,7 +286,7 @@
                         <!-- Inner overlay for neutral tint -->
                         <div class="absolute inset-0 bg-black/30 -z-10"></div>
 
-                        <div class="relative z-10 p-10">
+                        <div class="relative z-10 p-6 md:p-7">
                           <p
                             style="font-variant: small-caps"
                             class="text-[16px] lg:text-[18px] text-white/85"
@@ -289,7 +294,7 @@
                             designed for daylight storefronts
                           </p>
                           <p
-                            class="mt-2 text-[18px] lg:text-[22px] text-white/90 max-w-[72ch] leading-loose"
+                            class="mt-2 text-[17px] lg:text-[20px] text-white/90 max-w-[72ch] leading-loose"
                           >
                             Purpose-built window display systems — engineered
                             for high-brightness storefronts, not repurposed TVs.

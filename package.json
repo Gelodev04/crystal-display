@@ -4,7 +4,8 @@
   "version": "0.3.0",
   "scripts": {
     "dev": "npx tailwindcss -i ./src/input.css -o ./dist/styles.css --watch",
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/styles.css --minify"
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/styles.css --minify && node build.js",
+    "build:vercel": "npm run build"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.17"
